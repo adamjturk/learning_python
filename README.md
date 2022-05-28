@@ -1,13 +1,3 @@
 # Learning Python and Git
 
-This is my first README file. I may update this later, or I may not.
-
-Look, it's been updated.
-
-## Subheader
-
-Would you look at that, yet another update
-
-## Local Development
-
-something here
+All of my mini projects that I have written myself will be uploaded to this repository. There is no copied code, everything here is my original work.
