@@ -8,9 +8,14 @@ def collatz(number):
     else:
         return 3 * number + 1
 
-#user input
-print('Enter an integer: ')
-num = int(input())
+#user input, handles exception where user enters anything other than an integer
+while True:
+    print('Enter an integer: ')
+    try:
+        num = int(input())
+        break
+    except ValueError:
+        print('Please enter an integer only.')
 
 #main program loop
 while True:
