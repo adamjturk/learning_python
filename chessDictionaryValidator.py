@@ -1,3 +1,4 @@
+#chessBoard dictionary describes a new chess board with pieces in starting positions
 chessBoard = {'a8': 'brook','b8':'bknight', 'c8': 'bbishop', 'd8': 'bking',
               'e8': 'bqueen', 'f8': 'bbishop', 'g8': 'bknight', 'h8': 'brook',
               'a7': 'bpawn', 'b7': 'bpawn', 'c7': 'bpawn', 'd7': 'bpawn',
@@ -7,7 +8,7 @@ chessBoard = {'a8': 'brook','b8':'bknight', 'c8': 'bbishop', 'd8': 'bking',
               'a2': 'wpawn', 'b2': 'wpawn', 'c2': 'wpawn', 'd2': 'wpawn',
               'e2': 'wpawn', 'f2': 'wpawn', 'g2': 'wpawn', 'h2': 'wpawn'}
 
-
+#function that validates chess board
 def isValidChessBoard(argument):
     #counter
     bcount = 0
